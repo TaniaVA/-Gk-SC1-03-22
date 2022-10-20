@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task3</title>
+</head>
+<body>
+<table width="80%" border="1" cellpadding="15" cellspacing="0" cols="5" align="center">
+    <tr>
+        <th rowspan="3" bgcolor="#debeff" height="30"><font
+                color="#f0f8ff"><big><strong>Территория</strong></big></font>
+        </th>
+        <th colspan="4" bgcolor="#6b8e23"><font color="#f0f8ff" height="30"><big><strong>Месяц
+            года</strong></big></font></th>
+    </tr>
+    <tr>
+        <th colspan="2" bgcolor="#deff8e" height="30" valign="top">июль</th>
+        <th colspan="2" bgcolor="#deff8e" height="30" valign="top">июнь</th>
+    </tr>
+    <tr>
+        <th bgcolor="#e7ffbb" height="30"><p>Осадки</p>
+            <p>(мм)</p></th>
+        <th bgcolor="#e7ffbb" height="30"><p>Температура</p>
+            <p>(<sup>0</sup>C)</p></th>
+        <th bgcolor="#e7ffbb" height="30"><p>Осадки</p>
+            <p>(мм)</p></th>
+        <th bgcolor="#e7ffbb" height="30"><p>Температура</p>
+            <p>(<sup>0</sup>C)</p></th>
+    </tr>
+    <tr>
+        <th bgcolor="#ecd3ff" height="30">Тульская обл.</th>
+        <td valign="top" align="center">85</td>
+        <td valign="top" align="center">23</td>
+        <td valign="top" align="center">26</td>
+        <td valign="top" align="center">-15</td>
+    </tr>
+    <tr>
+        <th bgcolor="#ecd3ff" height="30">Курская обл.</th>
+        <td valign="top" align="center">63</td>
+        <td valign="top" align="center">27</td>
+        <td valign="top" align="center">32</td>
+        <td valign="top" align="center">-12</td>
+    </tr>
+    <tr>
+        <th bgcolor="#ecd3ff" height="30">Псковская обл.</th>
+        <td valign="top" align="center">78</td>
+        <td valign="top" align="center">19</td>
+        <td valign="top" align="center">35</td>
+        <td valign="top" align="center">-21</td>
+    </tr>
+    <tr>
+        <th bgcolor="#ecd3ff" height="30">Пермская обл.</th>
+        <td valign="top" align="center">54</td>
+        <td valign="top" align="center">16</td>
+        <td valign="top" align="center">45</td>
+        <td valign="top" align="center">-27</td>
+    </tr>
+</table>
+</body>
+</html>
