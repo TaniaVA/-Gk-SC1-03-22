@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+<h2 class="ff">Форма заявки на работу в зоопарке</h2>
+<p><em>Пожалуйста, заполните форму. Обязательные поля помечены</em> <span id="su">*</span></p>
+<br>
+<form>
+    <span class="info_border">Контактная информация</span>
+    <table border="0" cellspacing="5" cellpadding="5">
+        <tr>
+            <td align="left" valign="top">Имя <span id="su">*</span></td>
+            <td><input type="text" name="name" size="30"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">Телефон</td>
+            <td><input type="text" name="phone" size="30"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">Email <span id="su">*</span></td>
+            <td><input type="text" name="Email" size="30"></td>
+        </tr>
+    </table>
+</form>
+<br><br>
+<form>
+    <span class="info_border">Персональная информация</span>
+    <table border="0" cellspacing="5" cellpadding="5">
+        <tr>
+            <td align="left" valign="top">Возраст <span id="su">*</span></td>
+            <td><input type="text" name="age" size="30"></td>
+        </tr>
+        <tr>
+            <td><label for="gender" align="left">Пол</label>
+            <td><select id="gender" name="gender">
+                <option value="woman" selected>Женщина</option>
+                <option value="man">Мужчина</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" rowspan="3">Перечислите <br>личные<br> качества</td>
+            <td>
+                <textarea cols="27" rows="4" wrap="physical"></textarea>
+            </td>
+        </tr>
+    </table>
+</form>
+<br><br>
+<form>
+    <span class="info_border">Выберите ваших любимых животных</span>
+    <table border="0" cellspacing="5" cellpadding="5">
+        <tr>
+            <td><input type="checkbox" name="animal1" value="zebra">Зебра</td>
+            <td><input type="checkbox" name="animal1" value="cat">Кошак</td>
+            <td><input type="checkbox" name="animal1" value="anaconda">Анаконда</td>
+            <td><input type="checkbox" name="animal1" value="man">Человек
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="animal1" value="elephant">Слон</td>
+            <td><input type="checkbox" name="animal1" value="antelope">Антилопа</td>
+            <td><input type="checkbox" name="animal1" value="pigeon">Голубь</td>
+            <td><input type="checkbox" name="animal1" value="crab">Краб
+            </td>
+        </tr>
+    </table>
+</form>
+<br>
+<input type="submit" class="b1" name="submit" value="Отправить информацию">
+</body>
+</html>
