@@ -1,0 +1,44 @@
+body {
+    font: 14px "Times New Roman";
+}
+
+.ff {
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+p {
+    font: 14px "Times New Roman";
+}
+
+#su {
+    color: red;
+}
+
+form {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+.info_border {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+}
+
+select {
+    width: 210px;
+}
+
+.b1 {
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px;
+}
