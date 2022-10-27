@@ -1,0 +1,66 @@
+body {
+    font: 14px "Times New Roman";
+}
+
+div {
+    width: 550px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: orange;
+    text-align: right;
+}
+
+.ss1 {
+    background-color: green;
+    color: white;
+    font-style: italic;
+}
+
+.bl1 {
+    color: red;
+    font-size: 24px;
+}
+
+.cl4 {
+    color: orange;
+    text-align: left;
+}
+
+.bb1 {
+    font-family: bold;
+}
+
+.cl1 {
+    color: gray;
+}
+
+.cl2 {
+    color: red;
+}
+
+.cl3 {
+    color: green;
+}
+
+.cl5 {
+    color: blue;
+    text-align: left;
+}
+
+table {
+    width: 70%;
+    border: 2px solid gray;
+    background-color: white;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid gray;
+}
+
+td {
+    color: white;
+    background-color: green;
+}
