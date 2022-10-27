@@ -1,0 +1,15 @@
+.format_block{
+    width: 300px;
+    margin: auto;
+    margin-top: 3em;
+    padding: 1em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.hh1:hover{
+    color: orange;
+}
+.ff1:focus{
+    color: blue;
+}
