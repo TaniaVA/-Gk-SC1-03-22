@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.orange {
+    position: relative;
+    max-width: 500px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 3px orange solid;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    display: inline-block;
+}
+
+.or1 {
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px;
+}
+
+h4 {
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+sup {
+    vertical-align: 20px;
+}
+
+.fs1 {
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+ul {
+    width: 180px;
+    text-align: left;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 7pt;
+}
+
+li:nth-child(odd) {
+    background-color: #edf5fd;
+    padding: 5px 40px 5px;
+}
+
+li:nth-child(even) {
+    background-color: #f5f5f6;
+    padding: 5px 40px 5px;
+}
+
+.tick {
+    background: url("arrow.png") no-repeat;
+    background-position: 15px;
+}
+
+.button {
+    width: 90%;
+    font-weight: 700;
+    font-size: 9pt;
+    background-color: orange;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    border-bottom-color: brown;
+    padding: 10px 0;
+    margin: 5px auto 20px;
+    display: block;
+}
+
+.blue {
+    position: relative;
+    left: 15px;
+    max-width: 500px;
+    margin: 7px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px lightgrey solid;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.bl1 {
+    background-color: deepskyblue;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px;
+}
+
+.butt {
+    width: 90%;
+    font-weight: 700;
+    font-size: 9pt;
+    background-color: royalblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    border-bottom-color: brown;
+    padding: 10px 0;
+    margin: 5px auto 20px;
+    display: block;
+}
+
+.mint {
+    position: relative;
+    right: 15px;
+    max-width: 500px;
+    margin: 7px;
+    border: 1px lightgrey solid;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.mt {
+    background-color: mediumturquoise;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px;
+}
